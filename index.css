@@ -1,0 +1,63 @@
+#calculator-hole {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
+div#calculator-hole-under {
+  width: 300px;
+  font-weight: bold;
+  background-color: #aeddcd;
+  margin: 0 auto;
+}
+
+#calculator-hole-above {
+  background-color: #556fb5;
+  padding: 5%;
+}
+
+#screen {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fffeec;
+  text-align: right;
+  padding: 3%;
+  font-size: 30px;
+}
+
+/* エラー時だけ赤く */
+#screen.error {
+  color: red;
+}
+
+#keys button {
+  background-color: #556fb5;
+  color: aliceblue;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+#keys div,
+div#keys-large {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div#keys {
+  width: 84%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#keys #keys-large button {
+  width: 45%;
+  text-align: center;
+}
+
+#keys button.keys-button:hover {
+  background-color: orange;
+}

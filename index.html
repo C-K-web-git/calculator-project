@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>電卓課題</title>
+  </head>
+  <body>
+    <script type="module" src="/src/main.ts"></script>
+    <div id="calculator-hole">
+      <div id="calculator-hole-above">
+        <div id="screen" class="display">0</div>
+      </div>
+      <div id="calculator-hole-under">
+        <div id="keys">
+          <div>
+            <button class="keys-button" data-kind="digit" data-value="1">
+              1
+            </button>
+            <button class="keys-button" data-kind="digit" data-value="2">
+              2
+            </button>
+            <button class="keys-button" data-kind="digit" data-value="3">
+              3
+            </button>
+            <button class="keys-button" data-kind="op" data-value="/">÷</button>
+          </div>
+
+          <div>
+            <button class="keys-button" data-kind="digit" data-value="4">
+              4
+            </button>
+            <button class="keys-button" data-kind="digit" data-value="5">
+              5
+            </button>
+            <button class="keys-button" data-kind="digit" data-value="6">
+              6
+            </button>
+            <button class="keys-button" data-kind="op" data-value="*">×</button>
+          </div>
+
+          <div>
+            <button class="keys-button" data-kind="digit" data-value="7">
+              7
+            </button>
+            <button class="keys-button" data-kind="digit" data-value="8">
+              8
+            </button>
+            <button class="keys-button" data-kind="digit" data-value="9">
+              9
+            </button>
+            <button class="keys-button" data-kind="op" data-value="-">-</button>
+          </div>
+
+          <div>
+            <button class="keys-button" data-kind="digit" data-value="0">
+              0
+            </button>
+            <button class="keys-button" data-kind="decimal" data-value=".">
+              .
+            </button>
+            <button class="keys-button" data-kind="allClear">C</button>
+            <button class="keys-button" data-kind="op" data-value="+">+</button>
+          </div>
+
+          <div id="keys-large">
+            <button class="keys-button" data-kind="clear">←</button>
+            <button class="keys-button" data-kind="equal" data-value="=">
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
